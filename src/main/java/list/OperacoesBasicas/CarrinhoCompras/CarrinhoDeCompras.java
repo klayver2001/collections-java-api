@@ -63,6 +63,7 @@ public class CarrinhoDeCompras {
         System.out.println("Itens no carrinho após remoção:");
         carrinho.exibirItens();
 
+
         System.out.println("Valor total após remoção: R$ " + carrinho.calcularValorTotal());
     }
 }
